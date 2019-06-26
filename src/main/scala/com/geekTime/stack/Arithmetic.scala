@@ -7,7 +7,7 @@ import scala.util.{Success, Try}
   * @DATE 2019/6/24 11:21 PM
   * 四则运算
   */
-object Calculate {
+object Arithmetic {
 
   def main(args: Array[String]): Unit = {
 
