@@ -1,0 +1,5 @@
+name := "geekTime_alg"
+
+version := "0.1"
+
+scalaVersion := "2.13.0"
