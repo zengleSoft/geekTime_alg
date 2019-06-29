@@ -1,7 +1,7 @@
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/Users/zengle/ideaWorkspace/scala/geekTime/src/main/scala/com/geekTime/linked/LruCacheOnLinkedAndMap.java)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/Users/zengle/ideaWorkspace/scala/geekTime_alg/src/main/scala/com/geekTime/stack/BracketMatching.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/Users/zengle/ideaWorkspace/scala/geekTime_alg/src/main/scala/com/geekTime/stack/Arithmetic.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
@@ -13,18 +13,27 @@
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(com.geekTime.stack.Arithmetic)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/Users/zengle/ideaWorkspace/scala/geekTime_alg/src/main/scala/com/geekTime/stack/Arithmetic.scala)[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /Users/zengle/ideaWorkspace/scala/geekTime_alg/target/scala-2.13/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/Users/zengle/ideaWorkspace/scala/geekTime_alg/src/main/scala/com/geekTime/stack/BracketMatching.scala, /Users/zengle/ideaWorkspace/scala/geekTime_alg/src/main/scala/com/geekTime/stack/Arithmetic.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /Users/zengle/ideaWorkspace/scala/geekTime_alg/target/scala-2.13/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.13:1.2.5:compile for Scala 2.13.0[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 5ac1c1e4 for Scala compiler version 2.13.0[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler eb4271 for Scala compiler version 2.13.0[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes:/Users/zengle/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.0.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/Users/zengle/ideaWorkspace/scala/geekTime_alg/target/scala-2.13/classes[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.343604559 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.867188482 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from com.geekTime.stack.BracketMatching...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(com.geekTime.stack.BracketMatching)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(com.geekTime.stack.BracketMatching)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(com.geekTime.stack.BracketMatching,ModifiedNames(changes = UsedName(BracketMatching,[Default]), UsedName(finalize,[Default]), UsedName(synchronized,[Default]), UsedName(hashCode,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName(getClass,[Default]), UsedName(eq,[Default]), UsedName(notify,[Default]), UsedName(asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(main,[Default]), UsedName(!=,[Default]), UsedName(notifyAll,[Default]), UsedName(toString,[Default]), UsedName($asInstanceOf,[Default]), UsedName(equals,[Default]), UsedName($isInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(isValid,[Default]), UsedName(isInstanceOf,[Default]), UsedName(==,[Default]))) invalidates 1 classes due to The com.geekTime.stack.BracketMatching has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(BracketMatching,[Default]), UsedName(finalize,[Default]), UsedName(synchronized,[Default]), UsedName(hashCode,[Default]), UsedName(##,[Default]), UsedName(ne,[Default]), UsedName(getClass,[Default]), UsedName(eq,[Default]), UsedName(notify,[Default]), UsedName(asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(main,[Default]), UsedName(!=,[Default]), UsedName(notifyAll,[Default]), UsedName(toString,[Default]), UsedName($asInstanceOf,[Default]), UsedName(equals,[Default]), UsedName($isInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(isValid,[Default]), UsedName(isInstanceOf,[Default]), UsedName(==,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(com.geekTime.stack.BracketMatching)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
