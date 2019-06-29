@@ -8,11 +8,7 @@ object TestCase {
 
   def main(args: Array[String]): Unit = {
 
-    val ls = new LinkedStack()
-
-    println(ls.head)
-
-
+    println(111)
 
   }
 

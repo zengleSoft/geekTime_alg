@@ -1,7 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/zengle/ideaWorkspace/scala/geekTime_alg/src/main/scala/com/geekTime/stack/Arithmetic.scala:23:31: ')' expected but ']' found.[0m
-[0m[[0m[31merror[0m] [0m[0m    println(caculate3(express4]))[0m
-[0m[[0m[31merror[0m] [0m[0m                              ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/zengle/ideaWorkspace/scala/geekTime_alg/src/main/scala/com/geekTime/stack/Arithmetic.scala:31:3: ')' expected but '}' found.[0m
-[0m[[0m[31merror[0m] [0m[0m  }[0m
-[0m[[0m[31merror[0m] [0m[0m  ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/zengle/ideaWorkspace/scala/geekTime_alg/src/main/scala/com/geekTime/stack/TestCase.scala:15:12: patterns after a variable pattern cannot match (SLS 8.1.1)[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case ab => println(111)[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/zengle/ideaWorkspace/scala/geekTime_alg/src/main/scala/com/geekTime/stack/TestCase.scala:16:24: unreachable code due to variable pattern 'ab' on line 15[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case _ => println(222)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
