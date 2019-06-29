@@ -26,6 +26,13 @@ class LinkedStack {
     size -=1
     item
   }
+  // 返回栈顶元素 不弹出
+  def peek(): Int ={
+    if (size==0){
+      return -1
+    }
+    head.get.data
+  }
   // 清空栈
   def clear(): Unit ={
     size = 0
