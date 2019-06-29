@@ -2,3 +2,4 @@
 exit
 all {file:/Users/zengle/ideaWorkspace/scala/geekTime/}geektime/products {file:/Users/zengle/ideaWorkspace/scala/geekTime/}geektime/test:products
 ;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/4n/27khqf0d7vqgsq__mrxby18m0000gn/T/sbt-structure.xml; session clear-all
+all {file:/Users/zengle/ideaWorkspace/scala/geekTime_alg/}geektime_alg/products {file:/Users/zengle/ideaWorkspace/scala/geekTime_alg/}geektime_alg/test:products
