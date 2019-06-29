@@ -6,7 +6,7 @@ import scala.collection.mutable
 /**
   * @author zengle
   * @DATE 2019/6/29 9:30 PM
-  * 20,155,232,844,224,682,496
+  *
   */
 object BracketMatching {
 
